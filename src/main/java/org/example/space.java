@@ -1,7 +1,7 @@
 package org.example;
 import java.util.logging.*;
 import java.util.*;
-class Space implements Cloneable {
+class Space implements cloneable {
     Logger l = Logger.getLogger("com.api.jar");
     String x1 = "20";
     String y1 = "30";
