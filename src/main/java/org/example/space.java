@@ -2,7 +2,7 @@ package org.example;
 import java.util.logging.*;
 import java.util.*;
 class Space implements cloneable {
-    Logger l = Logger.getLogger("welcome");
+    Logger l = Logger.getLogger("space.class");
     String x1 = "20";
     String y1 = "30";
     String x2;
@@ -31,7 +31,7 @@ class Space implements cloneable {
     }
 
     public static void main(String[] args) {
-        Logger l = Logger.getLogger("welcome");
+        Logger l = Logger.getLogger("space.class");
         Scanner s = new Scanner(System.in);
         l.info("Enter x co-ordinate:");
         String x = s.nextLine();
